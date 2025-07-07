@@ -16,7 +16,8 @@ st.title("🏨 Hotel Performance Analysis – Local and International Markets")
 uploaded_file = st.sidebar.file_uploader("📤 Upload Cleaned_Hotel_Booking.csv", type=["csv"])
 
 if uploaded_file is not None:
-    df = pd.read_csv("https://github.com/amiramokhtar/Local-International/blob/master/Cleaned_Hotel_Booking.csv")
+   df = pd.read_csv("https://raw.githubusercontent.com/amiramokhtar/Local-International/master/Cleaned_Hotel_Booking.csv")
+
 
 
     # 3. Data Cleaning and Preprocessing
