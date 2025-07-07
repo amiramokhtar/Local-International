@@ -3,3 +3,4 @@ matplotlib
 seaborn
 streamlit
 scikit-learn
+prophet
